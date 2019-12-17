@@ -9,3 +9,22 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var array = [0, -3, 2, 5, 4, 6, -2];
+
+var max = array[0];
+for (var i = 1; i < array.length; i++) {
+  if (array[i] > max) {
+    max = array[i];
+  }
+}
+
+var min = array[0];
+for (var i = 1; i < array.length; i++) {
+  if (array[i] < min) {
+    min = array[i];
+  }
+}
+
+console.log('Giornata più calda: ' + max);
+console.log('Giornata più fredda: ' + min);
