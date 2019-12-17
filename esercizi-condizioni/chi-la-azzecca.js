@@ -23,7 +23,7 @@
 var player_1 = 52, player_2 = 44;
 console.log('Giocatore 1: ' + player_1);
 console.log('Giocatore 2: ' + player_2);
-var rnd = Math.floor(Math.random()*Math.floor(100)) + 1;
+var rnd = Math.floor(Math.random() * Math.floor(100)) + 1;
 
 if (player_1 == rnd) {
   console.log('Il giocatore 1 ha azzeccato il numero casuale!');
